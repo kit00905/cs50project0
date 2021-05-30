@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style_advancesearch.css">
+    </head>
+    <body>
+        <div id=template>
+            <div id="header">
+                <div id="logo">
+                    <img src="Google Logo.png" alt="Google Logo">
+                </div>
+                <div id="back">
+                    <a href="Google Search.html">Back</a>
+                </div>
+            </div>
+            <div id="formheader"><label>Advanced Search</label></div>
+            <div id="line"></div>
+            <div id="content">
+                <form action="https://google.com/search"></form>
+                    <div class="formsubheader1">
+                        <div class="column1">Find pages with...</div>
+                        <div class="column2"></div>
+                        <div class="column3">To do this in the search box.</div>
+                    </div>
+                    <div class="attribute1">
+                        <div class="column1"><label class="searchitem">all these words:</label></div>
+                        <div class="column2"><input type="text" name="as_q" class="searchvalue"></div>
+                        <div class="column3"><label>Type the important words: tri-colour rat terrier</label></div>
+                    </div>
+                    <div class="attribute2">
+                        <div class="column1"><label class="searchitem">this exact word or phrase:</label></div>
+                        <div class="column2"><input type="text" name="as_epq" class="searchvalue"></div>
+                        <div class="column3"><label>Put exact words in quotes: "rat terrier"</label></div>
+                    </div>
+                    <div class="attribute3">
+                        <div class="column1"><label class="searchitem">any of these words:</label></div>
+                        <div class="column2"><input type="text" name="as_oq" class="searchvalue"></div>
+                        <div class="column3"><label>Type OR between all the words you want: miniature OR standard</label></div>
+                    </div>
+                    <div class="attribute4">
+                        <div class="column1"><label class="searchitem">none of these words:</label></div>
+                        <div class="column2"><input type="text" name="as_eq" class="searchvalue"></div>
+                        <div class="column3"><label>Put a minus sign just before words that you don't want:<br> -rodent, -"Jack Russell"</label></div>
+                    </div>
+                    <div class="attribute5">
+                        <div class="column1"><label class="searchitem">numbers ranging from:</label></div>
+                        <div class="column2"><input type="text" name="as_nlo" class="searchvalue2"> to <input type="text" name="as_nhi" class="searchvalue2"></div>
+                        <div class="column3"><label>Put two full stops between the numbers and add a unit of measurement:<br> 10..35 kg, £300..£500, 2010..2011</label></div>
+                    </div>
+                    <hr>
+                    <div class="formsubheader2">
+                        <div class="column1">Then narrow your results<br>by...</div>
+                        <div class="column2"></div>
+                        <div class="column3"></div>
+                    </div>
+                    <div class="attribute6">
+                        <div class="column1"><label class="searchitem">language:</label></div>
+                        <div class="column2">
+                            <select name="lr" class="searchvalue">
+                                <option value="any language">any language</option>
+                                <option value="English">English</option>
+                            </select>
+                        </div>
+                        <div class="column3"><label>Find pages in the language that you select.</label></div>
+                    </div>
+                    <div class="attribute7">
+                        <div class="column1"><label class="searchitem">region:</label></div>
+                        <div class="column2"><input type="text" name="cr" class="searchvalue"></div>
+                        <div class="column3"><label>Find pages published in a particular region.</label></div>
+                    </div>
+                    <div class="attribute8">
+                        <div class="column1"><label class="searchitem">last update:</label></div>
+                        <div class="column2"><input type="text" name="as_qdr" class="searchvalue"></div>
+                        <div class="column3"><label>Find pages updated within the time that you specify.</label></div>
+                    </div>
+                    <div class="attribute9">
+                        <div class="column1"><label class="searchitem">site or domain:</label></div>
+                        <div class="column2"><input type="text" name="as_sitesearch" class="searchvalue"></div>
+                        <div class="column3"><label>Search one site (like wikipedia.org ) or limit your results to a domain like<br> .edu, .org or .gov</label></div>
+                    </div>
+                    <div class="attribute10">
+                        <div class="column1"><label class="searchitem">terms appearing:</label></div>
+                        <div class="column2"><input type="text" name="as_occt" class="searchvalue"></div>
+                        <div class="column3"><label>Search for terms in the whole page, page title or web address, or links to<br> the page you're looking for.</label></div>
+                    </div>
+                    <div class="attribute11">
+                        <div class="column1"><label class="searchitem">SafeSearch:</label></div>
+                        <div class="column2"><input type="text" name="safe" class="searchvalue"></div>
+                        <div class="column3"><label>Tell SafeSearch whether to filter sexually explicit content.</label></div>
+                    </div>
+                    <div class="attribute12">
+                        <div class="column1"><label class="searchitem">file type:</label></div>
+                        <div class="column2"><input type="text" name="as_filetype" class="searchvalue"></div>
+                        <div class="column3"><label>Find pages in the format that you prefer.</label></div>
+                    </div>
+                    <div class="attribute13">
+                        <div class="column1"><label class="searchitem">usage rights:</label></div>
+                        <div class="column2"><input type="text" name="tbs" class="searchvalue"></div>
+                        <div class="column3"><label>Find pages that you are free to use yourself.</label></div>
+                    </div>
+                    <input type="submit" value="Google Search">
+                    <hr>
+                </form>
+            <div>
+                You can also...<br><br>
+                <a>Find pages that are similar to a URL</a><br>
+                <a>Search pages that you've visited</a><br>
+                <a>Use operators in the search box</a><br>
+                <a>Customise your search settings</a><br>
+            </div>
+            </div>
+            <div id="footer"></div>
+        </div>
+    </body>
+</html>

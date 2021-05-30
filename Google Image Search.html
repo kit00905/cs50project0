@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="template">
+            <div id="header">
+                <div>
+                    <a href="Google Search.html" id="back">Back</a>
+                </div>
+            </div>
+            <div id="content">
+                <div id=logo>
+                    <img src="Google Logo.png" alt="Google Logo">
+                    <div id="logo-subtext">
+                        <span>Image</span>
+                    </div>
+                </div>
+                <div id='searchengine'>
+                    <form id = "GoogleImageSearch" method="get" action="http://images.google.com/images">
+                        <input type="text" name="q" id="q">
+                    </form>
+                    <button id = "clear" type="button" onclick="document.getElementById('q').value = ''">X</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
